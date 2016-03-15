@@ -3,6 +3,9 @@
 <title>The Teaching Lab</title>
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <style type="text/css">
+	* {
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+	}
 	.main {
 		width: 80%;
 		margin: 0 auto;
@@ -16,11 +19,37 @@
 		position: absolute;
 		left: -1000px;
 	}
+
+	ul {
+		list-style: none;
+		width: 400px;
+	    margin: 0 auto;
+	}
+
+	nav ul li {
+		display: inline-block;
+	    width: 32.3%;
+	}
+	nav {
+		margin: 50px auto 0;
+	}
+
+	nav ul li a {
+		color: #333;
+		text-decoration: none;
+	}
 </style>
 </head>
 <body>
 	<div class="main">
 		<h1>The Teching Lab</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
 	</div>
 </body>
 </html>
